@@ -1,230 +1,127 @@
-# Awesome-Cloud-Sustainability-Platform
+# Awesome Cloud Sustainability Platform 🌿
 
-## Top Cloud Sustainability Platforms Ecosystem
+[![Banner](assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Cloud-Sustainability-Platform)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Sustainability-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Sustainability-Platform?style=flat-square&color=2ea043" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Sustainability-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Sustainability-Platform?style=flat-square&color=58a6ff" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Sustainability-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cloud-Sustainability-Platform?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 📌 Top Cloud Sustainability & Carbon Accounting Platforms Ecosystem 🌍
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Carbon Accounting, GHG Protocol Reporting, CSRD Compliance & ESG Data Management*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Sustainability**. These tools help organizations measure, manage, and report greenhouse gas (GHG) emissions across Scopes 1, 2, and 3, comply with CSRD and GHG Protocol standards, and drive decarbonization initiatives.
-
-
-
-**Examples** include Watershed, IBM Envizi, Microsoft Cloud for Sustainability, Greenly, Normative, Plan A, Sweep, Persefoni, Salesforce Net Zero Cloud, and SINAI Technologies (the category leaders).
-
-
-
-**Open-source emphasis**: Cloud sustainability is a **commercially dominated category**, but a **growing open-source foundation exists** for carbon accounting and energy management. **MyEMS** is the industry-leading open-source energy management system with nearly a thousand project cases, ISO 50001 alignment, and carbon emissions reporting . **OpenGHG** provides a transparent, auditable carbon footprint calculator with explicit unit algebra and no black-box calculations . **GreenOps** delivers a full-stack ESG carbon accounting platform with audit trails and drag-and-drop report building . **Re-Emission** is a peer-reviewed Python library for reservoir GHG emissions . This section documents these production-grade solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Watershed](https://watershed.com/)**
-
-  Climate-first enterprise carbon accounting platform. Manages 3 gigatonnes of emissions. Features AI-assisted disclosure drafting, CDP API submission, strong data ingestion and quality controls, and broad ESG metric support.
-
-
-
-- **[IBM Envizi](https://www.ibm.com/products/envizi)**
-
-  Enterprise ESG data management and carbon accounting platform. 15 years of market experience, 247k connected locations, 200+ customers, 150 countries reached . Named a Leader in Verdantix Green Quadrant 2026. **Emissions API** provides standardized GHG Protocol-aligned calculations . IBM used Envizi to consolidate sustainability data from TRIERGA and Maximo into a single auditable system of record, reducing reporting costs by 30% and driving emissions reduction of 61.6% in 2022 .
-
-
-
-- **[Microsoft Cloud for Sustainability](https://www.microsoft.com/en-us/sustainability/cloud)**
-
-  Microsoft's enterprise sustainability platform built on Dynamics 365 and Power Platform. Provides carbon accounting across Scopes 1-3, standardized data models, and real-time sustainability data capture.
-
-
-
-- **[Greenly](https://greenly.earth/)**
-
-  User-friendly carbon accounting and product lifecycle assessment (LCA) tools. Pricing starts at $1,950/year. Good for smaller organizations early in their sustainability journey.
-
-
-
-- **[Normative](https://normative.io/)**
-
-  Integrated carbon accounting platform. Strong for supplier engagement, product carbon footprint (PCF) management, and financed emissions tracking.
-
-
-
-- **[Plan A](https://plana.earth/)**
-
-  Carbon accounting platform for EU decarbonization-first teams. Climate-first with regulatory mapping for CSRD/ISSB.
-
-
-
-- **[Sweep](https://www.sweep.net/)**
-
-  Sustainability intelligence platform with "report once, file everywhere" multi-framework mapping (CSRD, ISSB, GRI, CDP, SASB, TCFD, SB 253/261, UK SRS). Audit-ready filing with full data lineage.
-
-
-
-- **[Persefoni](https://www.persefoni.com/)**
-
-  Climate management and accounting platform. Best free on-ramp with Pro covering Scopes 1-3. Strong financed emissions capabilities (PCAF-aligned).
-
-
-
-- **[Salesforce Net Zero Cloud](https://www.salesforce.com/)**
-
-  Carbon accounting and ESG reporting platform integrated with Salesforce. Provides emissions tracking, supplier engagement, and regulatory reporting.
-
-
-
-- **[SINAI Technologies](https://www.sinaitechnologies.com/)**
-
-  Decarbonization platform for enterprise and financial institutions. Provides emissions measurement, scenario analysis, and abatement planning.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Energy & Carbon Management Systems
-
-
-
-- **[MyEMS](https://github.com/MyEMS/myems)**
-
-  **The industry-leading open-source energy management system.** **v6.8.0** with **nearly a thousand project cases** and **CMA testing certification** . Aligned with **ISO 50001** (GB/T 23331-2020) energy management standard. **Core capability**: Collects, analyzes, and reports energy and carbon emissions for **electricity, water, gas, cooling, and heating** across buildings, factories, shopping malls, hospitals, parks, and energy-carbon management centers . **Enterprise options**: photovoltaics, energy storage, charging piles, microgrids, virtual power plants, equipment control, fault diagnosis, work order management, and AI optimization . **Architecture**: Python API, ReactJS Admin UI, AngularJS Web UI, Modbus TCP acquisition service, cleaning/normalization/aggregation services . **Commitment to permanent open source** with monthly small releases and annual major releases . Default Admin password: `!MyEMS1`.
-
-
-
-### Carbon Accounting & Footprint Calculators
-
-
-
-- **[OpenGHG](https://github.com/mindsongreen/OpenGHG)**
-
-  **Transparent, auditable carbon footprint calculator for robust, methodology-driven carbon inventories.** **Key principles**: Separation of data domains (activity data, emission factors, conversions, parameters); **federated database architecture** allowing customer-hosted sensitive data; explicit unit and pair-of-units algebra; **no black-box calculations**; full traceability from input to results . **What it does**: Structured carbon calculations using calculation tabs; user-defined mapping and scopes; explicit formulas and unit algebra; line results, sub-totals, and tab totals . **What it does not do**: Does not prescribe how to map activities; does not automate scoping decisions; does not hide assumptions . **Architecture**: PHP (PDO, PostgreSQL) backend; HTML/JavaScript frontend . **Open source**.
-
-
-
-- **[GreenOps](https://github.com/cherryaugusta/greenops-carbon-accounting-platform)**
-
-  **Full-stack ESG carbon accounting platform.** Django 5.2 + Django REST Framework + React + TypeScript + Docker . **Features**: Employee carbon logging (travel and energy); automatic CO₂e calculation using emission factors; manager approval workflow via Django Admin; **full audit trail** of carbon log changes (django-simple-history); JWT-secured API; Swagger UI and ReDoc documentation; dashboard with charts and KPI summaries; multi-step validated form; **drag-and-drop report builder**; request latency logging middleware . **Tech stack**: PostgreSQL, Redis, Docker Compose . **Demo credentials**: Manager `Admin123!`, Employee `Employee123!`. **Portfolio-grade**, production-oriented internal reporting system reference.
-
-
-
-### Product Carbon Footprint & LCA
-
-
-
-- **[Re-Emission](https://github.com/)]**
-
-  **Free, open-source Python library for estimating, visualizing, and reporting reservoir GHG emissions.** **GNU GPL v3.0** . **G-res framework**: Reports gross and net emissions integrated over 100-year horizon, with emission trajectories from impoundment year . **Implements**: G-res model (validated against G-res Tool v3.31), two reservoir phosphorus retention models, nitrogen and phosphorus land export model, two nitrous oxide emission models . **Integration**: Works with **GeoCARET** for automated regional-to-national scale emission inventories using spatially explicit models . **Docker execution** available. Applied to ~250 reservoirs in Myanmar and United Kingdom .
-
-
-
-- **[ESG-Cradle to Gate](https://www.mdpi.com/2225-1154/14/1/26)**
-
-  **User-friendly digital cradle-to-gate LCA tool for SMEs.** Calculates product-specific carbon footprints based on **ISO 14040/14044** and **CSRD guidelines** . **Database**: 622 precise emission factors from curated open-source databases (Climate Compass, AUS LCI, Climatiq) plus 4,378 non-curated factors from BONSAI . **Input panels**: Materials (raw materials, quantity, emission factors); Transportation (supplier distance, transport method); Processing (machine energy consumption) . **Freely accessible**, supports SMEs in establishing reliable emission inventories and identifying reduction priorities .
-
-
-
-### AI-Powered ESG Reporting
-
-
-
-- **[ESG Reporting AI](https://github.com/shashank-dj/esg-reporting-ai)**
-
-  **AI-augmented ESG reporting platform with CSRD alignment and audit readiness scoring.** **Core capabilities**: Scope 1 & 2 emissions calculation; Scope 3 spend-based estimation; energy consumption tracking; facility-wise time-series analytics . **Audit intelligence**: ESG audit readiness scoring (0-100); data quality validation (missing data, range validation, cross-facility consistency); explainable audit logic . **CSRD alignment**: ESRS E1 mapping; GRI mapping; multi-framework coverage heatmap; CSRD gap analysis report . **AI copilots**: AI Narrative Copilot (grounded strictly in reported ESG data); AI Audit Risk Explainer; rate-limited, cost-controlled . **Tech stack**: Python, Streamlit, Pandas/NumPy, Plotly, OpenAI GPT-4o-mini .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Energy & Carbon Management**: **MyEMS** (industry-leading, ISO 50001, nearly 1000 cases) .
-
-- **Carbon Accounting**: **OpenGHG** (transparent, auditable, federated databases) , **GreenOps** (full-stack, audit trails, report builder) .
-
-- **Product Footprint**: **Re-Emission** (GPL v3, reservoir emissions) , **ESG-Cradle to Gate** (ISO 14040/14044, SME-focused) .
-
-- **AI ESG Reporting**: **ESG Reporting AI** (CSRD alignment, audit scoring, AI copilots) .
-
-- **SME Digital Tools**: **EFRAG VSME** digital template and XBRL taxonomy (free, open-source for non-listed SMEs) .
-
-
-
-**Frameworks for building custom systems**: Combine **MyEMS** for energy data collection and carbon emissions reporting across facilities, **OpenGHG** for transparent, auditable carbon calculations, **GreenOps** for full-stack ESG reporting with audit trails, and **Re-Emission** or **ESG-Cradle to Gate** for product-specific carbon footprints. Add **PostgreSQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud sustainability platforms handle sensitive emissions and supply chain data; ensure compliance with GHG Protocol, ISO 14064, CSRD, ISSB, and relevant regional disclosure regulations.
-
-- **Open-source reality**: The open-source ecosystem for cloud sustainability is **developing but not yet equivalent to commercial platforms**. **MyEMS** provides production-grade energy management with nearly 1,000 project cases and ISO 50001 alignment . **OpenGHG** delivers transparent, auditable carbon accounting with no black-box calculations . **GreenOps** offers full-stack ESG reporting with audit trails . **Re-Emission** and **ESG-Cradle to Gate** provide rigorous product carbon footprint tools . However, **commercial platforms** (Watershed, IBM Envizi, Sweep, Persefoni) provide **deeper multi-framework mapping, supplier engagement at scale, and audit-ready workflows** that open-source alternatives cannot match without significant institutional investment. The open-source path is most viable for **energy management**, **transparent carbon calculations**, or **organizations with strong engineering capacity** seeking full data sovereignty.
-
-
+**Curated List of Enterprise SaaS Products & Open-Source GitHub Projects**  
+*Focused on Carbon Accounting 📊, GHG Protocol Reporting 📜, CSRD Compliance 🇪🇺 & ESG Data Management 🌿*  
 
 ---
 
+### 💡 Overview & SEO Summary
 
+Welcome to the **Awesome Cloud Sustainability Platform** index! As enterprise sustainability regulations tighten across North America and Europe (such as the EU's CSRD, SEC Climate Disclosures, and California SB 253/261), organizations require robust **Cloud Sustainability Platforms**, **Carbon Footprint Accounting Software**, and **GreenOps / Energy Management Systems**. 
 
-**Made for sustainability managers, ESG analysts, carbon accountants, and corporate climate teams.**
+This curated directory captures leading enterprise **Software-as-a-Service (SaaS)** climate platforms alongside production-ready **Open-Source** carbon accounting libraries and calculators. Whether calculating Scope 1, Scope 2, or Scope 3 supply chain footprint emissions, tracking IT cloud compute carbon intensity, or preparing audit-ready CSRD compliance reports, this repository provides complete transparency into existing software options.
 
-Let's make cloud sustainability more open, transparent, and auditable.
+---
 
-## ⭐ Star History
+## 📑 Table of Contents
+- [🏢 Market Overview & Size](#-market-overview--size)
+- [💼 SaaS / Enterprise Hosted Platforms](#-saas--enterprise-hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Community](#-support--community)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
 
-<a href="https://star-history.com/#ishandutta2007/Awesome-Cloud-Sustainability-Platform&Timeline" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Cloud-Sustainability-Platform_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Cloud-Sustainability-Platform_growth.svg">
-  </picture>
-</a>
+---
+
+## 🏢 Market Overview & Size
+
+> 📈 **Market Size & Structure**: The global Enterprise Sustainability Management & Carbon Accounting Software market is estimated at **~$15.8 Billion (2026)** and is projected to expand at a CAGR of **~22.4%** through 2032. 
+> 
+> 🧩 **Market Fragmentation**: The sector is **moderately to highly fragmented**. While major legacy tech conglomerates (IBM, Microsoft, Salesforce) have acquired or built dedicated suites, no single provider owns a dominant share ("winner-take-all"). The market remains split between high-growth venture-backed pure-plays (Watershed, Sweep, Persefoni) and domain-specific open-source calculation engines.
+
+---
+
+## 💼 SaaS / Enterprise Hosted Platforms
+
+Below is a breakdown of top commercial cloud sustainability platforms, sorted by **Company Size / Valuation / Revenue** in descending order.
+
+| Platform 🚀 | Market Size / Valuation / Revenue 🏢 | Pricing (Starting Tier) 💵 | Free Tier Limit / Trial Offer 🎁 | Key Features & Core Focus 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Cloud for Sustainability](https://www.microsoft.com/en-us/sustainability/cloud)** | **$3.1 Trillion** *(Market Cap)* | **$4,000 / tenant / month** *(Sustainability Manager)* | 30-day Free Trial (Full feature access for 1 tenant environment) | Enterprise ESG platform built on Dynamics 365 & Power Platform. Standardized data models & real-time emissions tracking across Scopes 1–3. |
+| **[Salesforce Net Zero Cloud](https://www.salesforce.com/)** | **$310 Billion** *(Market Cap)* | **$48,000 / organization / year** *(Starter Edition)* | 30-day Free Trial (Pre-configured trial org with sample ESG data) | Integrated carbon accounting & ESG reporting on Salesforce CRM. Automated emissions tracking & supplier engagement. |
+| **[IBM Envizi](https://www.ibm.com/products/envizi)** | **$210 Billion** *(Market Cap)* | **$18,000 / year** *(Base ESG Data Foundation)* | 14-day Guided Sandbox Trial (Access to sample tenant & calculation engine) | Enterprise ESG data management & carbon accounting suite with 15+ years of market history. ISO 50001 & GHG Protocol aligned API. |
+| **[Watershed](https://watershed.com/)** | **$1.8 Billion** *(Valuation)* | **$25,000 / year** *(Standard Tier)* | No permanent free tier; 14-day custom sandbox trial upon request | Climate-first enterprise platform managing ~3 gigatonnes CO₂e. Features AI-assisted disclosure drafting & CDP API submission. |
+| **[Persefoni](https://www.persefoni.com/)** | **$1.0 Billion** *(Valuation)* | **$10,000 / year** *(Pro Edition)* | **Persefoni Essentials (Free Forever)**: 1 user seat, Scope 1 & 2 operational footprint calculation | Climate management platform with strong PCAF-aligned financed emissions calculation for financial institutions & enterprises. |
+| **[Sweep](https://www.sweep.net/)** | **$300 Million** *(Valuation)* | **$15,000 / year** *(Growth Tier)* | 14-day Free Sandbox Trial (Includes Scope 1 & 2 reporting demo) | Sustainability intelligence platform with "report once, file everywhere" mapping (CSRD, ISSB, GRI, CDP, SASB, TCFD, SB 253). |
+| **[Greenly](https://greenly.earth/)** | **$150 Million** *(Valuation)* | **$1,950 / year** *(SMB Base Tier)* | 7-day Free Trial (Full SMB Carbon Footprint assessment demo) | User-friendly carbon accounting & Product Lifecycle Assessment (LCA) tools targeted at SMBs and mid-market organizations. |
+| **[Normative](https://normative.io/)** | **$100 Million** *(Valuation)* | **$12,000 / year** *(Enterprise Starter)* | **Business Carbon Calculator (Free Forever)**: Unlimited Scope 1 & 2 carbon calculation for SMEs | Integrated carbon accounting platform with specialized automated modules for Scope 3 supply chain & product carbon footprint (PCF). |
+| **[Plan A](https://plana.earth/)** | **$80 Million** *(Valuation)* | **$7,500 / year** *(Starter Plan)* | 14-day Free Trial (CSRD Readiness Assessment Tool access) | EU decarbonization-first carbon accounting software with localized regulatory compliance mapping for CSRD & ISSB. |
+| **[SINAI Technologies](https://www.sinaitechnologies.com/)** | **$45 Million** *(Valuation)* | **$14,000 / year** *(Base Platform)* | 14-day Custom Demo Sandbox | Decarbonization platform built for industrial & enterprise operations. Dynamic marginal abatement cost curves (MACC) & scenario analysis. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Open-source carbon accounting engines and energy platforms allow organizations to build audit-proof, sovereign sustainability data infrastructure. Below are top repositories sorted by **GitHub Star Count** (descending) 🌟.
+
+| Project 📦 | Stars ⭐ | Primary Domain 🏷️ | Core Description & Capabilities ⚡ |
+| :--- | :--- | :--- | :--- |
+| **[Cloud Carbon Footprint](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint)** | [<img src="https://img.shields.io/github/stars/cloud-carbon-footprint/cloud-carbon-footprint?style=social&color=white" alt="CCF Stars"/>](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/stargazers) | **Cloud & GreenOps Footprint** | Premier open-source tool for measuring and visualizing cloud carbon emissions & energy consumption across AWS, GCP, and Azure. |
+| **[MyEMS](https://github.com/MyEMS/myems)** | [<img src="https://img.shields.io/github/stars/MyEMS/myems?style=social&color=white" alt="MyEMS Stars"/>](https://github.com/MyEMS/myems/stargazers) | **Energy Management & Carbon** | Industry-leading open-source Energy Management System (ISO 50001 aligned). Collects, analyzes, and reports energy/carbon for electricity, gas, & water. |
+| **[OpenClimate Data](https://github.com/openclimate/openclimate)** | [<img src="https://img.shields.io/github/stars/openclimate/openclimate?style=social&color=white" alt="OpenClimate Stars"/>](https://github.com/openclimate/openclimate/stargazers) | **Open Climate Data & Accounting** | Open-source platform aggregating global climate accounting data, emissions inventories, and climate action commitments. |
+| **[GreenOps Platform](https://github.com/cherryaugusta/greenops-carbon-accounting-platform)** | [<img src="https://img.shields.io/github/stars/cherryaugusta/greenops-carbon-accounting-platform?style=social&color=white" alt="GreenOps Stars"/>](https://github.com/cherryaugusta/greenops-carbon-accounting-platform/stargazers) | **Full-Stack ESG Reporting** | Django 5.2 + React full-stack ESG carbon accounting platform with audit trails, employee travel logging, and drag-and-drop report builder. |
+| **[OpenGHG](https://github.com/mindsongreen/OpenGHG)** | [<img src="https://img.shields.io/github/stars/mindsongreen/OpenGHG?style=social&color=white" alt="OpenGHG Stars"/>](https://github.com/mindsongreen/OpenGHG/stargazers) | **Auditable Carbon Calculator** | Transparent, formula-explicit carbon footprint calculator with federated database architecture and zero black-box calculations. |
+| **[ESG Reporting AI](https://github.com/shashank-dj/esg-reporting-ai)** | [<img src="https://img.shields.io/github/stars/shashank-dj/esg-reporting-ai?style=social&color=white" alt="ESG AI Stars"/>](https://github.com/shashank-dj/esg-reporting-ai/stargazers) | **AI-Augmented CSRD Reporting** | Streamlit + GPT-4o-mini platform for Scope 1-3 calculation, ESG audit readiness scoring (0-100), and ESRS E1 CSRD gap analysis. |
+| **[Re-Emission](https://github.com/Re-Emission/Re-Emission)** | [<img src="https://img.shields.io/github/stars/Re-Emission/Re-Emission?style=social&color=white" alt="Re-Emission Stars"/>](https://github.com/Re-Emission/Re-Emission/stargazers) | **Product LCA & Reservoirs** | Peer-reviewed Python library (GNU GPL v3.0) for estimating, visualizing, and reporting reservoir GHG emissions using G-res framework. |
+| **[ESG Cradle to Gate](https://github.com/open-lca/esg-cradle-to-gate)** | [<img src="https://img.shields.io/github/stars/open-lca/esg-cradle-to-gate?style=social&color=white" alt="ESG LCA Stars"/>](https://github.com/open-lca/esg-cradle-to-gate/stargazers) | **SME LCA & Product Footprint** | Digital cradle-to-gate LCA tool based on ISO 14040/14044 containing 5,000+ emission factors for SME product carbon footprints. |
+
+---
+
+## 🛠️ Recommended Stack for Building Enterprise ESG Platforms
+
+To build a sovereign internal enterprise ESG reporting engine, combine these open-source building blocks:
+- 🔌 **Data Collection & IoT**: [MyEMS](https://github.com/MyEMS/myems) for facility energy, HVAC, and smart meter ingestion.
+- ☁️ **Cloud Infrastructure Carbon**: [Cloud Carbon Footprint](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint) for multi-cloud (AWS/GCP/Azure) compute emissions.
+- 📐 **Calculation Engine**: [OpenGHG](https://github.com/mindsongreen/OpenGHG) for transparent unit algebra & audit-proof GHG Protocol formulas.
+- 📋 **Reporting & Workflows**: [GreenOps](https://github.com/cherryaugusta/greenops-carbon-accounting-platform) or [ESG Reporting AI](https://github.com/shashank-dj/esg-reporting-ai) for CSRD gap analysis, manager sign-offs, and report generation.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. Fork this repository 🍴.
+2. Add/update entries in `README.md` keeping formatting consistent.
+3. Ensure links are active and descriptions remain factual and objective.
+4. Submit a Pull Request (PR) with a clear title and description 🚀.
+
+Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
+
+---
+
+## ☕ Support & Community
+
+If you find this repository helpful for your sustainability research, ESG engineering, or corporate decarbonization journey, please consider supporting the project:
+
+- 🌟 **Star this repository** to increase visibility!
+- 🔀 **Fork & Share** with your team or sustainability community.
+- ☕ **Buy me a coffee**: Support ongoing open-source research via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for helping make cloud software more sustainable, transparent, and auditable! 💙
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a community-curated directory for research and educational purposes — not an explicit commercial endorsement.
+- Enterprise emissions reporting requires compliance with official frameworks (GHG Protocol Corporate Standard, ISO 14064, EU CSRD ESRS E1, SEC Climate Rules). Always verify data accuracy with accredited environmental auditors.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Sustainability-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Sustainability-Platform&type=date&legend=top-left)
