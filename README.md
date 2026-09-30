@@ -65,9 +65,9 @@ Below is a breakdown of top commercial cloud sustainability platforms, sorted by
 
 ## 🔓 Open-Source GitHub Projects
 
-Open-source carbon accounting engines and energy platforms allow organizations to build audit-proof, sovereign sustainability data infrastructure. Below are top repositories sorted by **GitHub Star Count** (descending) 🌟.
+Open-source carbon accounting engines and energy platforms allow organizations to build audit-proof, sovereign sustainability data infrastructure. Below are top repositories sorted by **GitHub Stars_Count** (descending) 🌟.
 
-| Project 📦 | Stars ⭐ | Primary Domain 🏷️ | Core Description & Capabilities ⚡ |
+| Project 📦 | GitHub_Stars ⭐ | Primary Domain 🏷️ | Core Description & Capabilities ⚡ |
 | :--- | :--- | :--- | :--- |
 | **[Cloud Carbon Footprint](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint)** | [<img src="https://img.shields.io/github/stars/cloud-carbon-footprint/cloud-carbon-footprint?style=social&color=white" alt="CCF Stars"/>](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/stargazers) | **Cloud & GreenOps Footprint** | Premier open-source tool for measuring and visualizing cloud carbon emissions & energy consumption across AWS, GCP, and Azure. |
 | **[MyEMS](https://github.com/MyEMS/myems)** | [<img src="https://img.shields.io/github/stars/MyEMS/myems?style=social&color=white" alt="MyEMS Stars"/>](https://github.com/MyEMS/myems/stargazers) | **Energy Management & Carbon** | Industry-leading open-source Energy Management System (ISO 50001 aligned). Collects, analyzes, and reports energy/carbon for electricity, gas, & water. |
@@ -125,3 +125,12 @@ Thank you for helping make cloud software more sustainable, transparent, and aud
 ## 📈 Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Sustainability-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Sustainability-Platform&type=date&legend=top-left)
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Cloud-Sustainability-Platform&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Cloud-Sustainability-Platform_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Cloud-Sustainability-Platform_growth.svg">
+  </picture>
+</a>
