@@ -219,3 +219,12 @@ Star the repo if you find it useful!
 **Made for sustainability managers, ESG analysts, carbon accountants, and corporate climate teams.**
 
 Let's make cloud sustainability more open, transparent, and auditable.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Cloud-Sustainability-Platform&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Cloud-Sustainability-Platform_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Cloud-Sustainability-Platform_growth.svg">
+  </picture>
+</a>
